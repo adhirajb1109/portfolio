@@ -3,9 +3,11 @@
 </h1>
 
 ✨ [Live Demo](https://adhiraj.site/)
+
 <hr>
 
 ## Credits
+
 ### Anurag
 
 - [Portfolio](https://anurag.tech)
@@ -20,4 +22,4 @@
 - [Twitter](https://twitter.com/adhirajb1109)
 - [Blog](https://blog.adhiraj.site/)
 
-Give a star ⭐ to show your support :P
+### Give a star ⭐ to show your support :P
