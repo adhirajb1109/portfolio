@@ -19,51 +19,52 @@ function MyApp({ Component, pageProps }: AppProps) {
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-
       <Script id="google-analytics" strategy="lazyOnload">
         {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-                `}
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}", {
+            page_path: window.location.pathname,
+          });
+        `}
       </Script>
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        title="Adhiraj Bhatia"
+        titleTemplate="Adhiraj Bhatia"
+        defaultTitle="Adhiraj Bhatia"
+        description="A developer who loves to build unique and impactful products."
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "https://www.adhiraj.site/",
+          title: "Adhiraj Bhatia",
           description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+            "A developer who loves to build unique and impactful products.",
           images: [
             {
               url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Adhiraj Bhatia",
             },
           ],
         }}
         twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
+          handle: "@adhirajb1109",
+          site: "@adhirajb1109",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Developer, Adhiraj, Adhiraj Bhatia, FUll Stack Developer, web development, web developer, tech products, startups, open source",
           },
         ]}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+        <link rel="icon" type="image/png" href="/assets/avatar.jpg" />
       </Head>
       <Component {...pageProps} />
     </>

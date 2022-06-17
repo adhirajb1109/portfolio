@@ -5,8 +5,7 @@ import { useRouter } from "next/router";
 
 const ErrorPage: NextPage = () => {
   const router = useRouter();
-
-  return (
+ return (
     <>
       <div className="flex min-h-screen min-w-full flex-col justify-center bg-[#fafdfe]">
         <Image

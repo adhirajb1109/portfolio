@@ -31,7 +31,7 @@ const Header: NextComponentType = () => {
         <TextLink text="Contact" url="#contact" />
       </p>
 
-      <Link href="https://github.com/kr-anurag/portfolio" passHref>
+      <Link href="https://github.com/adhirajb1109/portfolio" passHref>
         <a
           className="float-right mr-2 rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2 sm:float-none sm:mr-0"
           target="_blank"
