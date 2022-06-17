@@ -3,21 +3,17 @@
 </h1>
 
 ✨ [Live Demo](https://adhiraj.site/)
-<br>
-<br>
+<hr>
 
-### Credits
-
-<br>
-
-Anurag
+## Credits
+### Anurag
 
 - [Portfolio](https://anurag.tech)
 - [Github](https://github.com/kr-anurag)
 - [Twitter](https://twitter.com/imanuraglol)
 - [Blog](https://blog.anurag.tech)
 
-Adhiraj
+### Adhiraj
 
 - [Portfolio](https://adhiraj.site/)
 - [Github](https://github.com/adhirajb1109)

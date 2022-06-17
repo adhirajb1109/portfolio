@@ -12,8 +12,8 @@ const Skills = () => {
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">JavaScript & TypeScript</span>
-          &nbsp;as my main languages
+          <span className="text-white">TypeScript</span>
+          &nbsp;as my main language
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
