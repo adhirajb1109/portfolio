@@ -3,7 +3,7 @@ import type { NextComponentType, NextPageContext } from "next";
 
 import Link from "next/link";
 
-import type { iconProps } from "../../@types/prop.types";
+import type { iconProps } from "../../types/prop.types";
 
 const Icon: NextComponentType<NextPageContext, {}, iconProps> = ({
   icon,
