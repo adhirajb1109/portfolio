@@ -15,7 +15,7 @@ const About: NextComponentType = () => {
         </p>
         <p className="mt-4 text-gray-400">
           I am truly interested in entrepreneurship and currently running two
-          exciting startups.
+          exciting startups
         </p>
         <Link href="https://blog.adhiraj.site/" passHref>
           <a
