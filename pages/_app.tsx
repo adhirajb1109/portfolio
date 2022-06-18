@@ -43,9 +43,9 @@ function MyApp({ Component, pageProps }: AppProps) {
             "A developer who loves to build unique and impactful products.",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
-              width: 800,
-              height: 420,
+              url: "/assets/og-image.png",
+              width: 1500,
+              height: 500,
               alt: "Adhiraj Bhatia",
             },
           ],
@@ -59,12 +59,16 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Developer, Adhiraj, Adhiraj Bhatia, FUll Stack Developer, web development, web developer, tech products, startups, open source",
+              "Developer, Adhiraj, Adhiraj Bhatia, Full Stack Developer, Web Development, Web Developer, Tech Products, Startups, Open Source",
           },
         ]}
       />
       <Head>
         <link rel="icon" type="image/png" href="/assets/avatar.jpg" />
+        <meta
+          name="google-site-verification"
+          content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
+        />
       </Head>
       <Component {...pageProps} />
     </>
