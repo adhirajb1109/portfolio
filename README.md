@@ -4,10 +4,8 @@
 
 ✨ [Live Demo](https://adhiraj.site/)
 
-<hr>
-
 ### Credits
-- [github.com/kr-anurag/portfolio](https://github.com/kr-anurag/portfolio)
-<hr>
+- [kr-anurag/portfolio](https://github.com/kr-anurag/portfolio)
+
 
 ### Give a star ⭐ to show your support :P
