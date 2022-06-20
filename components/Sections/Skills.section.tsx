@@ -8,7 +8,7 @@ const Skills = () => {
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">TypeScript</span>
-          &nbsp;as my main language
+          &nbsp;as my Main Language
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
@@ -17,18 +17,23 @@ const Skills = () => {
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
+          <span className="text-white">Visual Studio Code</span>
+          &nbsp;as my Code Editor
+        </p>
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
+          <BsArrowRightShort size="30" />
           <span className="text-white">Figma</span>
-          &nbsp;as my designing tool
+          &nbsp;as my Designing Tool
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">Tailwind CSS </span>
-          &nbsp;as my CSS framework
+          &nbsp;as my CSS Framework
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">Express.js</span>
-          &nbsp;as my Backend framework
+          &nbsp;as my Backend Framework
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
@@ -44,7 +49,8 @@ const Skills = () => {
       <p className="text-lg font-medium text-slate-300">
         ...more skills include <span className="text-white">Python</span>,{" "}
         <span className="text-white">FastAPI</span>,{" "}
-        <span className="text-white">Supabase</span>,{" "}
+        <span className="text-white">Deta</span>,{" "}
+        <span className="text-white">Supabase</span>{" "}
       </p>
     </div>
   );
