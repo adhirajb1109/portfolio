@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "A developer who loves to build unique and impactful products.",
           images: [
             {
-              url: "https://i.postimg.cc/C5rq54Rx/og-image.png"
+              url: "https://i.postimg.cc/C5rq54Rx/og-image.png",
             },
           ],
         }}
@@ -50,6 +50,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
+        <meta
+          name="twitter:image"
+          content="https://i.postimg.cc/C5rq54Rx/og-image.png"
+        ></meta>
       </Head>
       <Component {...pageProps} />
     </>
