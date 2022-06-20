@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "A developer who loves to build unique and impactful products.",
           images: [
             {
-              url: "/assets/og-image.png"
+              url: "https://i.postimg.cc/C5rq54Rx/og-image.png"
             },
           ],
         }}
