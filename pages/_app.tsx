@@ -15,7 +15,11 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image/png" href="/assets/avatar.jpg" />
+        <link
+          rel="icon"
+          type="image/jpg"
+          href="https://i.ibb.co/chwshPs/avatar.jpg"
+        />
         <title>Adhiraj Bhatia</title>
         <meta
           name="description"
@@ -34,7 +38,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@adhirajb1109" />
         <meta name="twitter:creator" content="@adhirajb1109" />
-        <meta property="og:image" content="/assets/og-image.png" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/cwG3Jg7/og-image.png"
+        />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
