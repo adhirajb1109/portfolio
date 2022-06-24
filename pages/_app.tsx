@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@adhirajb1109" />
         <meta name="twitter:creator" content="@adhirajb1109" />
         <meta property="og:image" content="/assets/og-image.png" />
