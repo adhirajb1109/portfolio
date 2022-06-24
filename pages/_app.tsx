@@ -40,10 +40,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="twitter:creator" content="@adhirajb1109" />
         <meta
           property="og:image"
-          content="https://i.ibb.co/cwG3Jg7/og-image.png"
+          content="https://i.ibb.co/xHZpHS4/rsz-og-image.png"
         />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="420" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
