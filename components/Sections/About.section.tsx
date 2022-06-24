@@ -28,7 +28,6 @@ const About: NextComponentType = () => {
           </a>
         </Link>
       </div>
-
       <div className="custom:block hidden">
         <Image
           src="/assets/avatar.jpg"

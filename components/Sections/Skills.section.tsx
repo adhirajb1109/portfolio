@@ -17,16 +17,6 @@ const Skills = () => {
         </p>
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">Visual Studio Code</span>
-          &nbsp;as my Code Editor
-        </p>
-        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
-          <BsArrowRightShort size="30" />
-          <span className="text-white">Figma</span>
-          &nbsp;as my Designing Tool
-        </p>
-        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
-          <BsArrowRightShort size="30" />
           <span className="text-white">Tailwind CSS </span>
           &nbsp;as my CSS Framework
         </p>

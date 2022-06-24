@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import type { NextComponentType, NextPageContext } from "next";
 
 import Link from "next/link";
