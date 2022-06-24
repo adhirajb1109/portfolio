@@ -35,15 +35,16 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
+        <meta name="twitter:image" content="https://i.ibb.co/xHZpHS4/rsz-og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@adhirajb1109" />
         <meta name="twitter:creator" content="@adhirajb1109" />
         <meta
           property="og:image"
-          content="https://i.ibb.co/xHZpHS4/rsz-og-image.png"
+          content="https://i.ibb.co/cwG3Jg7/og-image.png"
         />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="420" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"

@@ -8,12 +8,10 @@ module.exports = {
       colors: {
         primary: "#010101",
       },
-
       fontFamily: {
         jost: ["Jost", "sans-serif"],
         sen: ["Sen", "sans-serif"],
       },
-
       screens: {
         custom: "1000px",
       },
