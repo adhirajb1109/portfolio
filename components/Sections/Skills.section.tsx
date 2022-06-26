@@ -1,15 +1,16 @@
 import {
-  BsArrowRightShort,
   SiTypescript,
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
-  SiFastify,
+  SiGraphql,
   SiPrisma,
-  SiPostgresql,
   SiSupabase,
+  SiNodedotjs,
+  SiFastify,
+  SiPostgresql,
   SiPython,
-  SiFastapi,
+  SiFastapi
 } from "../Misc/Icons.collection";
 
 const Skills = () => {
@@ -21,10 +22,12 @@ const Skills = () => {
         <SiReact size="45" className="mr-6 inline" />
         <SiNextdotjs size="45" className="mr-6 inline" />
         <SiTailwindcss size="45" className="mr-6 inline" />
-        <SiFastify size="45" className="mr-6 inline" />
+        <SiGraphql size="45" className="mr-6 inline" />
         <SiPrisma size="45" className="mr-6 inline" />
-        <SiPostgresql size="45" className="mr-6 inline" />
         <SiSupabase size="45" className="mr-6 inline" />
+        <SiNodedotjs size="45" className="mr-6 inline" />
+        <SiFastify size="45" className="mr-6 inline" />
+        <SiPostgresql size="45" className="mr-6 inline" />
         <SiPython size="45" className="mr-6 inline" />
         <SiFastapi size="45" className="mr-6 inline" />
       </div>

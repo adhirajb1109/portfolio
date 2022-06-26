@@ -5,14 +5,16 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { FaDiscord } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
 import {
+  SiTailwindcss,
   SiTypescript,
   SiReact,
   SiNextdotjs,
-  SiTailwindcss,
-  SiFastify,
+  SiGraphql,
   SiPrisma,
-  SiPostgresql,
   SiSupabase,
+  SiNodedotjs,
+  SiFastify,
+  SiPostgresql,
   SiPython,
   SiFastapi,
 } from "react-icons/si";
@@ -30,10 +32,12 @@ export {
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
-  SiFastify,
+  SiGraphql,
   SiPrisma,
-  SiPostgresql,
   SiSupabase,
+  SiNodedotjs,
+  SiFastify,
+  SiPostgresql,
   SiPython,
-  SiFastapi
+  SiFastapi,
 };
