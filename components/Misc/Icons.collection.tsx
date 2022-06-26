@@ -4,6 +4,18 @@ import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { FaDiscord } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
+import {
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFastify,
+  SiPrisma,
+  SiPostgresql,
+  SiSupabase,
+  SiPython,
+  SiFastapi,
+} from "react-icons/si";
 
 export {
   BsSpotify,
@@ -14,4 +26,14 @@ export {
   BsArrowRightShort,
   FaDiscord,
   VscGithubAlt,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFastify,
+  SiPrisma,
+  SiPostgresql,
+  SiSupabase,
+  SiPython,
+  SiFastapi
 };
