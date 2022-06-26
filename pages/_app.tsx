@@ -36,23 +36,19 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
         <meta
-          name="twitter:image"
-          content="https://i.ibb.co/gyvS48k/og-image.png"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@adhirajb1109" />
-        <meta name="twitter:creator" content="@adhirajb1109" />
-        <meta
           property="og:image"
-          content="https://i.ibb.co/cwG3Jg7/og-image.png"
+          content="https://i.ibb.co/MBMGDc6/og-image.png"
         />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="418" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
           content="A developer who loves to build unique and impactful products."
         />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@adhirajb1109" />
+        <meta name="twitter:creator" content="@adhirajb1109" />
       </Head>
       <Component {...pageProps} />
     </>
