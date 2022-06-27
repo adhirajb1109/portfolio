@@ -37,10 +37,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://i.ibb.co/MBMGDc6/og-image.png"
+          content="https://i.ibb.co/chwshPs/avatar.jpg"
         />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="418" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
