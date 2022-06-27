@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link
           rel="icon"
           type="image/jpg"
-          href="https://i.ibb.co/chwshPs/avatar.jpg"
+          href="https://i.ibb.co/jH27HTY/profile-Notion-Style.jpg"
         />
         <title>Adhiraj Bhatia</title>
         <meta
