@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://i.ibb.co/m97pS4V/profile-Notion-Style-1.jpg"
+          content="https://i.ibb.co/NWnrh7W/OG-Image-Portfolio.jpg"
         />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
