@@ -15,11 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width" />
-        <link
-          rel="icon"
-          type="image/jpg"
-          href="/assets/avatar.jpg"
-        />
+        <link rel="icon" type="image/jpg" href="/assets/avatar.jpg" />
         <title>Adhiraj Bhatia</title>
         <meta
           name="description"
@@ -35,6 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
+        <meta property="og:image" content="/assets/og-image.png" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
