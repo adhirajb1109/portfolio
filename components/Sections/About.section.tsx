@@ -30,7 +30,7 @@ const About: NextComponentType = () => {
       </div>
       <div className="hidden custom:block">
         <Image
-          src="https://i.ibb.co/jH27HTY/profile-Notion-Style.jpg"
+          src="/assets/avatar.jpg"
           width="112"
           height="112"
           className="rounded-full"

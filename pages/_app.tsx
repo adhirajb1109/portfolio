@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link
           rel="icon"
           type="image/jpg"
-          href="https://i.ibb.co/jH27HTY/profile-Notion-Style.jpg"
+          href="/assets/avatar.jpg"
         />
         <title>Adhiraj Bhatia</title>
         <meta
@@ -34,10 +34,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta
           name="google-site-verification"
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
-        />
-        <meta
-          property="og:image"
-          content="https://i.ibb.co/BLRm9p2/og-image.png"
         />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
