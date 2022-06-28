@@ -31,12 +31,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
-        <meta property="og:image" content="/assets/og-image.png" />
+        <meta property="og:url" content="https://adhiraj.site/" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
           content="A developer who loves to build unique and impactful products."
         />
+        <meta property="og:image" content="/assets/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@adhirajb1109" />
         <meta name="twitter:creator" content="@adhirajb1109" />
