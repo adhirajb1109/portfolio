@@ -25,6 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           property="keywords"
           content="Developer, Adhiraj, Adhiraj Bhatia, Full Stack Developer, Web Development, Web Developer, Tech Products, Startups, Open Source"
         />
+        <link rel="canonical" href="https://adhiraj.site/" />
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="-F5KEYR7HWa--QIiyrY1KKHdYxMiz5ycQ37WRiMDXns"
         />
         <meta property="og:url" content="https://adhiraj.site/" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
@@ -39,8 +41,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta property="og:image" content="/assets/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@adhirajb1109" />
-        <meta name="twitter:creator" content="@adhirajb1109" />
+        <meta property="twitter:domain" content="adhiraj.site" />
+        <meta property="twitter:url" content="https://adhiraj.site/" />
+        <meta name="twitter:title" content="Adhiraj Bhatia" />
+        <meta
+          name="twitter:description"
+          content="A developer who loves to build unique and impactful products."
+        />
+        <meta name="twitter:image" content="/assets/og-image.png" />
       </Head>
       <Component {...pageProps} />
     </>
