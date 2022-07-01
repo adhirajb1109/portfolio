@@ -13,7 +13,7 @@ module.exports = {
         sen: ["Sen", "sans-serif"],
       },
       screens: {
-        custom: "1000px",
+        responsive: { max: "1000px" },
       },
     },
   },
