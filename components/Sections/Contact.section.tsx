@@ -5,6 +5,7 @@ import {
   MdEmail,
   AiOutlineGithub,
   AiOutlineTwitter,
+  SiHashnode,
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
@@ -23,6 +24,7 @@ const Contact: NextComponentType = () => {
           icon={<AiOutlineTwitter />}
           url="https://twitter.com/adhirajb1109"
         />
+        <Icon icon={<SiHashnode />} url="https://hashnode.com/@adhirajb1109" />
         <Icon
           icon={<FaDiscord />}
           url="https://discord.com/users/876685465183473675"

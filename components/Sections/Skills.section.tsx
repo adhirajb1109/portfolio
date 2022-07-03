@@ -10,7 +10,7 @@ import {
   SiFastify,
   SiPostgresql,
   SiPython,
-  SiFastapi
+  SiFastapi,
 } from "../Misc/Icons.collection";
 
 const Skills = () => {
@@ -18,18 +18,42 @@ const Skills = () => {
     <div className="my-16 px-3 font-sen text-white" id="skills">
       <p className=" text-3xl font-bold text-white">Skills</p>
       <div className="responsive:overflow-x-auto responsive:overflow-y-auto responsive:whitespace-nowrap">
-        <SiTypescript size="45" className="mr-6 mt-8 inline" />
-        <SiReact size="45" className="mr-6 mt-8 inline" />
-        <SiNextdotjs size="45" className="mr-6 mt-8 inline" />
-        <SiTailwindcss size="45" className="mr-6 mt-8 inline" />
-        <SiGraphql size="45" className="mr-6 mt-8 inline" />
-        <SiPrisma size="45" className="mr-6 mt-8 inline" />
-        <SiSupabase size="45" className="mr-6 mt-8 inline" />
-        <SiNodedotjs size="45" className="mr-6 mt-8 inline" />
-        <SiFastify size="45" className="mr-6 mt-8 inline" />
-        <SiPostgresql size="45" className="mr-6 mt-8 inline" />
-        <SiPython size="45" className="mr-6 mt-8 inline" />
-        <SiFastapi size="45" className="mr-6 mt-8 inline" />
+        <a href="https://www.typescriptlang.org/">
+          <SiTypescript size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://reactjs.org/">
+          <SiReact size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://nextjs.org/">
+          <SiNextdotjs size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://tailwindcss.com/">
+          <SiTailwindcss size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://graphql.org/">
+          <SiGraphql size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://www.prisma.io/">
+          <SiPrisma size="45" className="mr-6 mt-8 inline" />
+        </a>{" "}
+        <a href="https://www.supabase.com/">
+          <SiSupabase size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://nodejs.org">
+          <SiNodedotjs size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://fastify.io/">
+          <SiFastify size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://www.postgresql.org/">
+          <SiPostgresql size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://www.python.org/">
+          <SiPython size="45" className="mr-6 mt-8 inline" />
+        </a>
+        <a href="https://fastapi.tiangolo.com/">
+          <SiFastapi size="45" className="mr-6 mt-8 inline" />
+        </a>
       </div>
     </div>
   );

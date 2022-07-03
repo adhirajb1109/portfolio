@@ -1,4 +1,4 @@
-import { BsSpotify, BsArrowRightShort } from "react-icons/bs";
+import { BsArrowRightShort } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -17,10 +17,10 @@ import {
   SiPostgresql,
   SiPython,
   SiFastapi,
+  SiHashnode,
 } from "react-icons/si";
 
 export {
-  BsSpotify,
   MdEmail,
   AiOutlineTwitter,
   AiOutlineGithub,
@@ -40,4 +40,5 @@ export {
   SiPostgresql,
   SiPython,
   SiFastapi,
+  SiHashnode,
 };
