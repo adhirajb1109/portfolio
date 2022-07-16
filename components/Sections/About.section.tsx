@@ -14,7 +14,8 @@ const About: NextComponentType = () => {
           A developer who loves to build unique and impactful products
         </p>
         <p className="mt-4 text-gray-400">
-          I am truly interested in entrepreneurship and currently running two
+          Truly interested in entrepreneurship and currently running two
+          <br />
           exciting startups
         </p>
         <Link href="https://blog.adhiraj.site/" passHref>
@@ -27,6 +28,15 @@ const About: NextComponentType = () => {
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
+      </div>
+      <div className="hidden mouse:block">
+        <Image
+          src="https://i.ibb.co/ScmNW8n/avatar.jpg"
+          width="112"
+          height="112"
+          className="rounded-full"
+          alt="avatar"
+        />
       </div>
     </div>
   );

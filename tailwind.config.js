@@ -13,7 +13,8 @@ module.exports = {
         sen: ["Sen", "sans-serif"],
       },
       screens: {
-        responsive: { max: "1000px" },
+        touch: { max: "1000px" },
+        mouse: "1000px",
       },
     },
   },
