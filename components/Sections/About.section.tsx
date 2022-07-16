@@ -14,9 +14,10 @@ const About: NextComponentType = () => {
           A developer who loves to build unique and impactful products
         </p>
         <p className="mt-4 text-gray-400">
-          Truly interested in entrepreneurship and currently running two
-          <br />
-          exciting startups
+          <span>
+            Truly interested in entrepreneurship and currently running two
+          </span>{" "}
+          <span className="mouse:block">exciting startups</span>
         </p>
         <Link href="https://blog.adhiraj.site/" passHref>
           <a
