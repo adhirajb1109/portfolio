@@ -15,11 +15,11 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" href="https://i.ibb.co/ScmNW8n/avatar.jpg" />
+        <link rel="icon" href="/assets/avatar.jpg" />
         <title>Adhiraj Bhatia</title>
         <meta
           name="description"
-          content="A developer who loves to build unique and impactful products."
+          content="A teen developer, enthusiastic about tech and space, building unique and impactful products."
         />
         <meta
           property="keywords"
@@ -37,11 +37,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
-          content="A developer who loves to build unique and impactful products."
+          content="A teen developer, enthusiastic about tech and space, building unique and impactful products."
         />
         <meta
           property="og:image"
-          content="https://i.ibb.co/xCcQ10n/og-image.png"
+          content="/assets/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="adhiraj.site" />
@@ -49,11 +49,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="twitter:title" content="Adhiraj Bhatia" />
         <meta
           name="twitter:description"
-          content="A developer who loves to build unique and impactful products."
+          content="A teen developer, enthusiastic about tech and space, building unique and impactful products."
         />
         <meta
           name="twitter:image"
-          content="https://i.ibb.co/xCcQ10n/og-image.png"
+          content="/assets/og-image.png"
         />
       </Head>
       <Component {...pageProps} />

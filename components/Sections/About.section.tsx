@@ -11,13 +11,12 @@ const About: NextComponentType = () => {
       <div>
         <p className="text-3xl font-bold text-white">Adhiraj Bhatia</p>
         <p className="mt-2 text-lg text-gray-300">
-          A developer who loves to build unique and impactful products
+          A teen developer building unique and impactful products
         </p>
         <p className="mt-4 text-gray-400">
           <span>
-            Truly interested in entrepreneurship and currently running two
-          </span>{" "}
-          <span className="mouse:block">exciting startups</span>
+            Passionate about tech, space, and building products with a purpose
+          </span>
         </p>
         <Link href="https://blog.adhiraj.site/" passHref>
           <a
@@ -32,9 +31,9 @@ const About: NextComponentType = () => {
       </div>
       <div className="hidden mouse:block">
         <Image
-          src="https://i.ibb.co/ScmNW8n/avatar.jpg"
-          width="112"
-          height="112"
+          src="/assets/avatar.jpg"
+          width="150"
+          height="150"
           className="rounded-full"
           alt="avatar"
         />
