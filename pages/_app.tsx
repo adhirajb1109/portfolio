@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Adhiraj Bhatia</title>
         <meta
           name="description"
-          content="A teen developer, enthusiastic about tech and space, building unique and impactful products."
+          content="A teen developer, enthusiastic about tech and space and building unique and impactful products."
         />
         <meta
           property="keywords"
@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Adhiraj Bhatia" />
         <meta
           property="og:description"
-          content="A teen developer, enthusiastic about tech and space, building unique and impactful products."
+          content="A teen developer, enthusiastic about tech and space and building unique and impactful products."
         />
         <meta
           property="og:image"
@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="twitter:title" content="Adhiraj Bhatia" />
         <meta
           name="twitter:description"
-          content="A teen developer, enthusiastic about tech and space, building unique and impactful products."
+          content="A teen developer, enthusiastic about tech and space and building unique and impactful products."
         />
         <meta
           name="twitter:image"
