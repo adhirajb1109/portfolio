@@ -31,7 +31,7 @@ const About: NextComponentType = () => {
       </div>
       <div className="hidden mouse:block">
         <Image
-          src="/assets/avatar.jpg"
+          src="https://i.ibb.co/w4h3yQ6/avatar.jpg"
           width="150"
           height="150"
           className="rounded-full"

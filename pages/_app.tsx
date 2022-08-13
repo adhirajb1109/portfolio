@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" href="/assets/avatar.jpg" />
+        <link rel="icon" href="https://i.ibb.co/w4h3yQ6/avatar.jpg" />
         <title>Adhiraj Bhatia</title>
         <meta
           name="description"
@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="/assets/og-image.png"
+          content="https://i.ibb.co/X3R7Rdf/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="adhiraj.site" />
@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="twitter:image"
-          content="/assets/og-image.png"
+          content="https://i.ibb.co/X3R7Rdf/og-image.png"
         />
       </Head>
       <Component {...pageProps} />
