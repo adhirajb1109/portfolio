@@ -6,6 +6,7 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   SiHashnode,
+  RiFileUserLine
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
@@ -28,6 +29,10 @@ const Contact: NextComponentType = () => {
         <Icon
           icon={<FaDiscord />}
           url="https://discord.com/users/876685465183473675"
+        />
+        <Icon
+          icon={<RiFileUserLine />}
+          url="/assets/resume.pdf"
         />
       </div>
     </div>

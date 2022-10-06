@@ -1,6 +1,5 @@
 import type { NextComponentType } from "next";
 
-import Image from "next/image";
 import Link from "next/link";
 
 import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
@@ -28,15 +27,6 @@ const About: NextComponentType = () => {
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
-      </div>
-      <div className="hidden mouse:block">
-        <Image
-          src="https://i.ibb.co/w4h3yQ6/avatar.jpg"
-          width="150"
-          height="150"
-          className="rounded-full"
-          alt="avatar"
-        />
       </div>
     </div>
   );

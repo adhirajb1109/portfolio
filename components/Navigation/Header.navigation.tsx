@@ -22,13 +22,20 @@ const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
 const Header: NextComponentType = () => {
   return (
     <header
-      className={`font-jost py-8 sm:flex sm:flex-row sm:items-center sm:justify-between`}
+      className={`py-8 font-jost sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" url="#" />
         <TextLink text="Skills" url="#skills" />
         <TextLink text="Products" url="#products" />
         <TextLink text="Contact" url="#contact" />
+        <a
+          href="/assets/resume.pdf"
+          className="cursor-pointer rounded-md px-4 py-[0.10rem] text-xl text-gray-200 duration-100 hover:bg-zinc-800"
+          target="_blank"
+        >
+          Resume
+        </a>
       </p>
 
       <Link href="https://github.com/adhirajb1109/portfolio" passHref>
