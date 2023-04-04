@@ -32,7 +32,7 @@ const Contact: NextComponentType = () => {
         />
         <Icon
           icon={<RiFileUserLine />}
-          url="/assets/Resume - Adhiraj Bhatia.pdf"
+          url="/assets/Adhiraj Bhatia - Resume.pdf"
         />
       </div>
     </div>
