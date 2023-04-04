@@ -30,7 +30,7 @@ const Header: NextComponentType = () => {
         <TextLink text="Products" url="#products" />
         <TextLink text="Contact" url="#contact" />
         <a
-          href="/assets/Resume - Adhiraj Bhatia.pdf"
+          href="/assets/Adhiraj Bhatia - Resume.pdf"
           className="cursor-pointer rounded-md px-4 py-[0.10rem] text-xl text-gray-200 duration-100 hover:bg-zinc-800"
           target="_blank"
         >
